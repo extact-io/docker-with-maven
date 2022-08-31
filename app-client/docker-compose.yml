@@ -1,0 +1,13 @@
+version: "2"
+services:
+  hell-service:
+    image: io.extact/hello-server:latest
+    container_name: "hello-service"
+    ports:
+      - "7001:7001"
+  goodbye-service:
+    image: io.extact/goodbye-server:latest
+    container_name: "goodbye-service"
+    ports:
+      - "7002:7002"
+      
