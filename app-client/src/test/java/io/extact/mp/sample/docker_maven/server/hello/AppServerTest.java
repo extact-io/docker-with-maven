@@ -4,7 +4,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import java.util.Set;
 
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 
@@ -29,7 +28,6 @@ import jakarta.ws.rs.core.Application;
  * ・スタブ：JAX-RS REST Resource(HelloServerClientStub/GoodbyeServerClientStub)
  * </pre>
  */
-@Disabled
 @HelidonTest
 @AddConfig(key = "server.port", value = "7001")
 @AddConfig(key = "baseUrl.hello/mp-rest/url", value = "http://localhost:7001")

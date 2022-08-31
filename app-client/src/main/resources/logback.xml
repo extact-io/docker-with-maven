@@ -9,7 +9,7 @@
       <pattern>%date [%-5level] [%logger{1}] [%thread] - %message%n</pattern>
     </encoder>
   </appender>
-  <root level="INFO">
+  <root level="WARN">
     <appender-ref ref="STDOUT" />
   </root>
 </configuration>
